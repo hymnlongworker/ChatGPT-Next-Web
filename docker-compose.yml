@@ -7,10 +7,10 @@ services:
     ports:
       - 3000:3000
     environment:
-      - OPENAI_API_KEY=$OPENAI_API_KEY
+      - OPENAI_API_KEY=ak-JeeF2Dos9tvsqirP6Kx4Xosi0xeDi8KF9QBehp5NVPstckra
       - GOOGLE_API_KEY=$GOOGLE_API_KEY
       - CODE=$CODE
-      - BASE_URL=$BASE_URL
+      - BASE_URL=https://a.nextapi.fun
       - OPENAI_ORG_ID=$OPENAI_ORG_ID
       - HIDE_USER_API_KEY=$HIDE_USER_API_KEY
       - DISABLE_GPT4=$DISABLE_GPT4
